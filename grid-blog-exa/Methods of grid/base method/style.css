@@ -1,0 +1,35 @@
+body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+    background-color: #88888857;
+    font-family: monospace;
+}
+
+.container{
+    display:grid;
+  grid-template-columns:2fr 1fr 1fr;
+  font-size:20px;
+  border: dotted #000;
+}
+
+.header{
+    background:#ccd8cf;
+    
+    padding: 50px;
+}
+.aside{
+    background: #c7b299;
+    padding: 50px;
+    
+}
+.main{
+    background:#e4c1b3;
+    padding: 50px;
+    
+}
+.footer{
+    background:#d68e6b;
+    padding: 50px;
+}

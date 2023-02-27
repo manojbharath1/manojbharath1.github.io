@@ -1,0 +1,47 @@
+.container{
+padding: 20rem;
+font-family: monospace;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 80vh;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  .sidebar-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 50px);
+    background-color: #ffc5e8;
+    border-radius: 15px;
+  }
+  
+  .grid-item {
+    padding: 1rem;
+    border-radius: 15px;
+    box-shadow: inset 5px 5px 12px #555, 5px 5px 12px rgb(235 235 235 / 16%);
+
+  }
+  
+  .header {
+    background-color: #b6daff;
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar {
+    background-color: #ffc9a3;
+    margin-bottom: 1rem;
+  }
+  
+  .content {
+    background-color: #cfcfcf;
+    margin-bottom: 1rem;
+  }
+  
+  .footer {
+    background-color: #d8ffe6;
+  } 
