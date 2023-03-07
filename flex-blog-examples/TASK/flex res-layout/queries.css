@@ -1,0 +1,305 @@
+/* desktop first approach
+Order of the breakpoints */
+/* Large screens (1200px and above) */
+
+/* @media (max-width: 1199px) {
+}
+@media (max-width: 1023px) {
+ .container{
+    display: block;
+  }
+  nav{
+    margin-left: 0px;
+  }
+  
+}
+@media (max-width: 767px) {
+
+ .container1, .container3{
+    display: block;
+  }
+  main, aside, .box{
+    height: 10vh;
+  }
+
+  aside{
+    height: 150px;
+  }
+
+  aside{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .box{
+    margin-left: 0px;
+  }
+  .box2, .box3{
+    margin-top: 10px;
+  }
+  footer{
+    margin-left: 0px;
+  }
+  header, footer ,nav {
+    height: 20px;
+  }
+
+} */
+
+/* 2. Mobile first approach
+Order of the breakpoints */
+/* small screens (767px and below) */
+/* @media (min-width: 768px) {
+  .container1{
+    display: flex;
+  }
+
+  .container3{
+    display: flex;
+  }
+
+  .box{
+    height: 30vh;
+    margin-left: 10px;
+  }
+
+  main{
+    height: auto;
+  }
+
+  aside {
+    margin-left: 10px;
+    height: 46vh;
+    
+  }
+  footer{
+    margin-left: 10px;
+  }
+
+}
+@media (min-width: 1024px) {
+  .container{
+    display: flex;
+  }
+
+  nav{
+    margin-left: 10px;
+  }
+}
+@media (min-width: 1200px) {
+} */
+
+/* ******************************************************************************************************************************************************** */
+
+/* Device Orientation
+Desktop first approach */
+/* Desktops and laptops in landscape mode */
+/* @media only screen and (orientation: landscape) {
+}
+
+@media only screen and (max-width: 1023px) and (orientation: landscape) {
+  .container{
+    display: block;
+  }
+  nav{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (orientation: portrait) {
+  .container{
+    display: block;
+  }
+  nav{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+  .container1, .container3{
+    display: block;
+  }
+  main, aside, .box{
+    height: 10vh;
+  }
+
+  aside{
+    height: 150px;
+  }
+
+  aside{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .box{
+    margin-left: 0px;
+  }
+  .box2, .box3{
+    margin-top: 10px;
+  }
+  footer{
+    margin-left: 0px;
+  }
+  header, footer ,nav {
+    height: 20px;
+  }
+} */
+
+/* Mobile devices in portrait mode */
+/* @media only screen and (max-width: 767px) and (orientation: portrait) {
+
+  .container1, .container3{
+    display: block;
+  }
+  main, aside, .box{
+    height: 15vh;
+  }
+
+  aside{
+    height: 150px;
+  }
+
+  aside{
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .box{
+    margin-left: 0px;
+  }
+  .box2, .box3{
+    margin-top: 10px;
+  }
+  footer{
+    margin-left: 0px;
+  }
+  header, footer ,nav {
+    height: 40px;
+  }
+} */
+
+/* 2.Mobile first approach */
+/* Mobile devices in portrait mode */
+/* @media only screen and (orientation: portrait) {
+}
+@media only screen and (orientation: landscape) {
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+
+  .container1{
+    display: flex;
+  }
+
+  .container3{
+    display: flex;
+  }
+
+  .box{
+    height: 30vh;
+    margin-left: 10px;
+  }
+
+  main{
+    height: auto;
+  }
+
+  aside {
+    margin-left: 10px;
+    height: 46vh;
+    
+  }
+  footer{
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+
+  .container1{
+    display: flex;
+  }
+
+  .container3{
+    display: flex;
+  }
+
+  .box{
+    height: 30vh;
+    margin-left: 10px;
+  }
+
+  main{
+    height: auto;
+  }
+
+  aside {
+    margin-left: 10px;
+    height: 46vh;
+    
+  }
+  footer{
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+  .container{
+    display: flex;
+  }
+
+  nav{
+    margin-left: 10px;
+  }
+} */
+
+/* ******************************************************************************************************************************************************** */
+
+/* Pixel Density
+Desktop first approach */
+/* High-resolution screens with pixel density of 2 */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+  /* Styles for high-resolution screens with pixel density of 2 */
+  body{
+    font-size: 25px;
+  }
+}
+
+/* High-resolution screens with pixel density of 3 */
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-resolution: 288dpi) {
+  /* Styles for high-resolution screens with pixel density of 3 */
+  body{
+    font-size: 35px;
+  }
+}
+
+/* High-resolution screens with pixel density of 4 */
+@media only screen and (-webkit-min-device-pixel-ratio: 4),
+only screen and (min-resolution: 384dpi) {
+  /* Styles for high-resolution screens with pixel density of 4 */
+}
+
+/* 2.Mobile first approach */
+/* High-resolution screens with pixel density of 4 */
+@media only screen and (-webkit-min-device-pixel-ratio: 4),
+only screen and (min-resolution: 384dpi) {
+  /* Styles for high-resolution screens with pixel density of 4 */
+}
+
+/* High-resolution screens with pixel density of 3 */
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-resolution: 288dpi) {
+  /* Styles for high-resolution screens with pixel density of 3 */
+  body{
+    font-size: 35px;
+  }
+}
+
+/* High-resolution screens with pixel density of 2 */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi) {
+  /* Styles for high-resolution screens with pixel density of 2 */
+  body{
+    font-size: 25px;
+  }
+}

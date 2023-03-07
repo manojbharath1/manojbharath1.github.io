@@ -1,0 +1,118 @@
+
+.container1{
+    gap: 10px;
+    border: 2px solid;
+    padding: 5px;
+    /* width: 800px; */
+    display: flex;
+}
+
+.flex1{
+    width: 70px;
+    height: 70px;
+    background-color: #001173;
+    padding: 20px;
+    box-shadow: inset 5px 5px 12px #555, 5px 5px 12px rgb(235 235 235 / 16%);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+   /* flex: 2; */
+}
+
+.flex0{
+    flex-basis: auto;
+}
+
+.flex2{
+flex-basis: 10em;
+background-color: #fff;
+color: #000;
+}
+
+.flex3{
+    /* flex: 1 30px; */
+    flex: 2 2 10%;
+    
+}
+
+.flex4{
+    /* flex: 2 2; */
+    background-color: #fff;
+color: #000;
+
+}
+/* .flex{
+    background-color: #fff !important;
+    color: #000 !important;
+} */
+/* .flex1{
+    flex-wrap: nowrap;
+
+} */
+
+/* .flex1{
+    flex-grow: 0.6;
+}
+
+.flex2{
+    flex-grow: 1;
+}
+
+.flex3{
+    flex-grow: 2;
+}
+
+.flex4{
+    flex-grow: 3;
+} */
+/* .container2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.container3{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    border: 2px solid;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.container4{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    border: 2px solid;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.container5{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    border: 2px solid;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.container6{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    border: 2px solid;
+    margin-top: 10px;
+    padding: 5px;
+} */
+
+
+
+/* .flex2, .flex4{
+    background-color: #fff;
+    color: #000;
+} */

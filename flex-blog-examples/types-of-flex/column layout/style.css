@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 22px;
+  row-gap: 10px;
+  column-gap: 10px;
+}
+body{
+    font-family: monospace;
+}
+
+.box {
+  background-color: #001173;
+  color: #fff;
+  padding: 5px;
+  box-shadow: inset 5px 5px 12px #555, 5px 5px 12px rgb(235 235 235 / 16%);
+  border-radius: 10px;
+  height: 16vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.flex2, .flex4, .flex6{
+    color: #000;
+    background-color: #fff;
+}
